@@ -11,6 +11,9 @@
     "test-dev": "NODE_ENV=test jest --watch --no-cache",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
+    "engines": {
+    "node": "20.x"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "yarn format",
